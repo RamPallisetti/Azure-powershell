@@ -77,7 +77,7 @@
     }
   },
   "variables": {
-    "adAssetLocation": "https://github.com/RamPallisetti/Azure-powershell//blob/master",
+    "adAssetLocation": "https://raw.githubusercontent.com/RamPallisetti/Azure-powershell/master",
     "adVMSize": "Standard_A1",
     "adVnetName": "[concat('ADVNET',resourceGroup().name)]",
     "adSubnetName": "[concat('ADStaticSubnet',resourceGroup().name)]",
@@ -124,7 +124,7 @@
     "subnetAddressRange": "10.0.0.0/24",
     "dnsServerPrivateIp": "10.0.0.4",
     "subnet-id": "[concat(resourceId('Microsoft.Network/virtualNetworks', variables('adVnetName')),'/subnets/', variables('adSubnetName'))]",
-    "assetLocation": "https://github.com/RamPallisetti/Azure-powershell//blob/master/",
+    "assetLocation": "https://raw.githubusercontent.com/RamPallisetti/Azure-powershell/master/",
     "nsgName": "RDSNsg",
     "nsgID": "[resourceId('Microsoft.Network/networkSecurityGroups',variables('nsgName'))]",
     "subnets": [
