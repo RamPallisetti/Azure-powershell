@@ -6,7 +6,8 @@
       "type": "string",
       "metadata": {
         "description": "Unique gateway public DNS prefix for the deployment. The fqdn will look something like '<dnsname>.westus.cloudapp.azure.com'. Up to 62 chars, digits or dashes, lowercase, should start with a letter: must conform to '^[a-z][a-z0-9-]{1,61}[a-z0-9]$'. For example johndns1 will result the final RDWEB access url like https://johndns1.westus.cloudapp.azure.com/RDWeb"
-      }
+      },
+      "defaultValue": "RamTestRDPGW"
     },
     "gwpublicIPAddressName": {
       "type": "string",
@@ -34,7 +35,7 @@
       "metadata": {
         "description": "The password for the administrator account of the new VM and the domain"
       },
-      "defaultValue": "[concat('Subscription#',subscription().subscriptionId)]"
+      "defaultValue": "1qaz2wsx3edc$"
     },
     "imageSKU": {
       "type": "string",
@@ -49,7 +50,7 @@
     },
     "numberOfRdshInstances": {
       "type": "int",
-      "defaultValue": 1,
+      "defaultValue": 2,
       "metadata": {
         "description": "Number of RemoteDesktopSessionHosts"
       }
