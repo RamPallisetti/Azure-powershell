@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "gwdnsLabelPrefix": {
-      "value": "ramtestrdp1"
+      "value": "ramtestrdp"
     },
     "adminPassword": {
       "value": "1qaz2wsx3edc$"
