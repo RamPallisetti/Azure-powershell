@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "gwdnsLabelPrefix": {
-      "value": "RDStestsample"
+      "value": "rdstestsample"
     },
     "adminPassword": {
       "value": "1qaz2wsx3edc$"
