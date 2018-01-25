@@ -20,7 +20,7 @@
       "metadata": {
         "description": "The name of the AD domain. For example contoso.com"
       },
-      "defaultValue": "ramrdstest.com"
+      "defaultValue": "rdstest.com"
     },
     "adminUsername": {
       "type": "string",
